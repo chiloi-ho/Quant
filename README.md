@@ -1,7 +1,7 @@
 # Quant
-Some backtesting results of my own built BASIC strategies.
+Some backtesting results of my own built simple strategies.
 
-多因子沪深300指数增强：
+**多因子沪深300指数增强：**
 1. 沪深300为标的
 2. 已设置避免未来数据
 3. 已设置交易滑点和手续费
@@ -11,7 +11,8 @@ Some backtesting results of my own built BASIC strategies.
 7. 策略为取基本面因子，逐项进行排名，乘以权重后取平均排名最高的前n只股票买入，定期m天调仓
 
 
-多因子中证500指数增强：
+
+**多因子中证500指数增强：**
 1. 中证500为标的
 2. 已设置避免未来数据
 3. 已设置交易滑点和手续费
@@ -19,6 +20,8 @@ Some backtesting results of my own built BASIC strategies.
 5. ~~已加入大盘止损~~
 6. 已过滤停牌股票
 7. 策略为取基本面因子，逐项进行排名，乘以权重后取平均排名最高的前n只股票买入，定期m天调仓
+
+
 
 | 左对齐 | 右对齐 | 居中对齐 |
 | :-----| ----: | :----: |
